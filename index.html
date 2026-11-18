@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eatery Restaurant </title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Link : CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Start Header -->
+    <header>
+        <!-- Start Nav -->
+        <nav>
+            <div class="logo">
+                Eatery <span>.</span> Cafe
+            </div>
+            <!-- Mobile Menu Toggle (Checkbox & Label) -->
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#chef">Chef</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-content">
+                <a href="#" class="nav-call">Call Now! <i class="fa-solid fa-phone"></i> 010 2030 4050</a>
+                <a href="#footer" class="nav-btn">Reserve a table</a>
+            </div>
+        </nav>
+        <!-- End Nav -->
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Main -->
+    <main>
+        <!-- Start Home sec -->
+        <section id="home">
+            <input type="radio" name="slider" id="slider1" checked>
+            <input type="radio" name="slider" id="slider2">
+            <input type="radio" name="slider" id="slider3">
+            <div class="slider-btn">
+                <label for="slider1"></label>
+                <label for="slider2"></label>
+                <label for="slider3"></label>
+            </div>
+            <div class="slide home-slider1">
+                <h4>Eatery Cafe & Restaurant</h4>
+                <h2>Our mission is to provide and 
+                    unforgettable experience</h2>
+                <a href="#chef" class="btn btn-slide1">Meet our chef</a>
+            </div>
+            <div class="slide home-slider2">
+                <h4>Your Perfect Breakfast</h4>
+                <h2>The best dinning quality 
+                    can be here too!</h2>
+                <a href="#menu" class="btn btn-slide2">Discover menu</a>
+            </div>
+            <div class="slide home-slider3">
+                <h4>New Restaurant in Town</h4>
+                <h2>Enjoy our special menus every 
+                    Sunday and Friday</h2>
+                <a href="#contact" class="btn btn-slide3">Reservation</a>
+            </div>
+        </section>
+        <!-- End Home sec -->
+
+        <!-- Start About sec -->
+        <section id="about">
+            <div class="content-about">
+                <h5>Read our story</h5>
+                <h2>We've been Making The 
+                    Delicious Foods Since 1999
+                </h2>
+                <p>Fusce hendrerit malesuada lacinia. Donec semper semper sem 
+                    vitae malesuada. Proin scelerisque risus et ipsum semper molestie 
+                    sed in nisi. Ut rhoncus congue lectus, rhoncus venenatis leo 
+                    malesuada id.
+                </p>
+                <p>Sed elementum vel felis sed scelerisque. In arcu diam, sollicitudin 
+                    eu nibh ac, posuere tristique magna. You can use this template for 
+                    your cafe or restaurant website. Please tell your friends about 
+                    templatemo. Thank you.
+                </p>
+            </div>
+            <div class="img-about">
+                <img src="images/about-image.jpg" alt="About img">
+            </div>
+        </section>
+        <!-- End About sec -->
+
+        <!-- Start Chef sec -->
+        <section id="chef">
+            <h2>Meet our chefs</h2>
+            <h5>They are nice & friendly</h5>
+            <div class="ourChefs">
+                <!-- Chef 1 -->
+                <div class="chef">
+                    <div class="chef-thumb">
+                        <img src="images/chefs/team-image1.jpg" alt="New Catherine">
+                        <div class="information">
+                            <h3>Duis vel lacus id 
+                                magna mattis vehicula</h3>
+                            <div class="chef-links">
+                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>New Catherine</h3>
+                    <h5>Kitchen Officer</h5>
+                </div>
+                <!-- Chef 2 -->
+                <div class="chef">
+                    <div class="chef-thumb">
+                        <img src="images/chefs/team-image2.jpg" alt="Lindsay Perlen">
+                        <div class="information">
+                            <h3>Cras suscipit neque 
+                                quis odio feugiat</h3>
+                            <div class="chef-links">
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-solid fa-message"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Lindsay Perlen</h3>
+                    <h5>Owner & Manager</h5>
+                </div>
+                <!-- Chef 3 -->
+                <div class="chef">
+                    <div class="chef-thumb">
+                        <img src="images/chefs/team-image3.jpg" alt="Isabella Grace">
+                        <div class="information">
+                            <h3>Etiam auctor enim 
+                                tristique faucibus</h3>
+                            <div class="chef-links">
+                                <a href="#"><i class="fa-brands fa-github"></i></a>
+                                <a href="#"><i class="fa-brands fa-google"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Isabella Grace</h3>
+                    <h5>Pizza Specialist</h5>
+                </div>
+            </div>
+        </section>
+        <!-- End Chef sec -->
+
+        <!-- Start Menu sec -->
+        <section id="menu">
+            <h2>Our Menus</h2>
+            <h5>Tea Time & Dining</h5>
+            <div class="ourMenus">
+                <!-- Menu 1 -->
+                <div class="menu">
+                    <img src="images/menu/menu-image1.jpg" alt="American Breakfast">
+                    <div class="decs-menu">
+                        <h3>American Breakfast</h3>
+                        <h5>Tomato / Eggs / Sausage</h5>
+                        <span>$25</span>
+                    </div>
+                </div>
+                <!-- Menu 2 -->
+                <div class="menu">
+                    <img src="images/menu/menu-image2.jpg" alt="Self-made Salad">
+                    <div class="decs-menu">
+                        <h3>Self-made Salad</h3>
+                        <h5>Green / Fruits / Healthy</h5>
+                        <span>$18</span>
+                    </div>
+                </div>
+                <!-- Menu 3 -->
+                <div class="menu">
+                    <img src="images/menu/menu-image3.jpg" alt="Chinese Noodle">
+                    <div class="decs-menu">
+                        <h3>Chinese Noodle</h3>
+                        <h5>Pepper / Chicken / Vegetables</h5>
+                        <span>$34</span>
+                    </div>
+                </div>
+                <!-- Menu 4 -->
+                <div class="menu">
+                    <img src="images/menu/menu-image4.jpg" alt="Rice Soup">
+                    <div class="decs-menu">
+                        <h3>Rice Soup</h3>
+                        <h5>Green / Chicken</h5>
+                        <span>$28</span>
+                    </div>
+                </div>
+                <!-- Menu 5 -->
+                <div class="menu">
+                    <img src="images/menu/menu-image5.jpg" alt="Deli Burger">
+                    <div class="decs-menu">
+                        <h3>Deli Burger</h3>
+                        <h5>Beef / Fried Potatoes</h5>
+                        <span>$46</span>
+                    </div>
+                </div>
+                <!-- Menu 6 -->
+                <div class="menu">
+                    <img src="images/menu/menu-image6.jpg" alt="Big Flat Fried">
+                    <div class="decs-menu">
+                        <h3>Big Flat Fried</h3>
+                        <h5>Pepper / Crispy</h5>
+                        <span>$30</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Menu sec -->
+
+        <!-- Start Testimonials sec -->
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <input type="radio" name="testi-slider" id="t1" checked>
+            <input type="radio" name="testi-slider" id="t2">
+            <input type="radio" name="testi-slider" id="t3">
+            <!-- Testimonial 1 -->
+            <figure class="slide testi-slide1">
+                <blockquote>
+                    Integer posuere erat a ante venenatis dapibus posuere velit aliquet. 
+                    Maecenas faucibus mollis interdum ullamcorper nulla non.
+                </blockquote>
+                <figcaption>
+                    <strong>Digital Carlson</strong> <span>Pharetra quam sit amet</span>
+                </figcaption>
+            </figure>
+            <!-- Testimonial 2 -->
+            <figure class="slide testi-slide2">
+                <blockquote>
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada 
+                    fames ac turpis egestas. Sed vestibulum orci quam.
+                </blockquote>
+                <figcaption>
+                    <strong>Johnny Stephen</strong> <span>Magna nisi porta ligula</span>
+                </figcaption>
+            </figure>
+            <!-- Testimonial 3 -->
+            <figure class="slide testi-slide3">
+                <blockquote>
+                    Vivamus aliquet felis eu diam ultricies congue. Morbi porta lorem nec 
+                    consectetur porta quis dui elit habitant morbi.
+                </blockquote>
+                <figcaption>
+                    <strong>Jessie White</strong> <span>Vitae lacinia augue urna quis</span>
+                </figcaption>
+            </figure>
+
+            <div class="slider-btn">
+                <label for="t1"></label>
+                <label for="t2"></label>
+                <label for="t3"></label>
+            </div>
+        </section>
+        <!-- End Testimonials sec -->
+
+        <!-- Start Contact sec -->
+        <section id="contact">
+            
+            <div class="map-box">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8113.8814234707215!2d100.56593047327331!3d13.757134187947106!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29e8d23e783e5%3A0xf51ce6427b7918fc!2sG%20Tower%20Grand%20Rama%209!5e1!3m2!1sar!2sus!4v1794677115371!5m2!1sar!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+            <div class="form-box">
+                <form method="post">
+                    <h2>Contact Us</h2>
+                    <div class="input-row">
+                        <input type="text" placeholder="Full name" required>
+                        <input type="email" placeholder="Email address" required>
+                    </div>
+                    <div class="input-row">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="input-row">
+                        <textarea placeholder="Tell about your project" rows="5" cols="10" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+        <!-- End Contact sec -->
+    </main>
+    <!-- End Main -->
+
+    <!-- Start Footer -->
+    <footer id="footer">
+        <div class="findUs">
+            <h3>Find us</h3>
+            <address>
+                123 nulla a cursus rhoncus,<br>
+                augue sem viverra 10870<br>
+                id ultricies sapien
+            </address>
+
+        </div>
+        <div class="reservation">
+            <h3>Reservation</h3>
+            <p>090-080-0650 | 090-070-0430</p>
+            <p><a href="mailto:info@company.com">info@company.com</a></p>
+            <p>LINE: eatery247</p>
+        </div>
+        <div class="openHours">
+            <h3>Open Hours</h3>
+            <p>Monday: Closed</p>
+            <p><strong>Tuesday to Friday</strong><br>7:00 AM - 9:00 PM</p>
+            <p><strong>Saturday - Sunday</strong><br>11:00 AM - 10:00 PM</p>
+        </div>
+        <div class="platforms">
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+            </div>
+            <p class="copyright">Copyright © 2026<br>Your Company Name</p>
+            <p class="designer">Developer: <a href="https://www.linkedin.com/in/mariam-ellibishy/" target="_blank">Mariam Ellibishy</a></p>
+        </div>
+    </footer>
+    <!-- End Footer -->
+</body>
+</html>
